@@ -55,6 +55,9 @@ class SiteController extends Controller
 	 */
 	public function actionContact()
 	{
+
+		$this->layout = '//layouts/page';
+
 		$model=new ContactForm;
 		if(isset($_POST['ContactForm']))
 		{
@@ -81,6 +84,9 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
+
+		$this->layout = '//layouts/login';
+
 		$model=new LoginForm;
 
 		// if it is ajax validation request
