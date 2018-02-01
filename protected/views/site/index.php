@@ -4,17 +4,25 @@
 $this->pageTitle=Yii::app()->name;
 ?>
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+ <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+<header class="masthead mb-auto">
+	<div class="inner">
+		<h3 class="masthead-brand"><?php echo Yii::app()->name; ?></h3>
+		<?php $this->widget('CoverMainMenu'); ?>
+	</div>
+</header>
 
-<p>Congratulations! You have successfully created your Yii application.</p>
+<main role="main" class="inner cover">
+	<h1 class="cover-heading">Cover your page.</h1>
+	<p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+	<p class="lead">
+  		<a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+	</p>
+</main>
 
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
-</ul>
-
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+<footer class="mastfoot mt-auto">
+	<div class="inner">
+  		<p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+	</div>
+</footer>
+</div>

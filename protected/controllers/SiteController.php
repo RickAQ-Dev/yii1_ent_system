@@ -17,6 +17,7 @@ class SiteController extends Controller
 			// They can be accessed via: index.php?r=site/page&view=FileName
 			'page'=>array(
 				'class'=>'CViewAction',
+				'layout' => '//layouts/page'
 			),
 		);
 	}
@@ -27,6 +28,9 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
+
+		$this->layout = '//layouts/cover';
+
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
