@@ -24,6 +24,23 @@ $this->breadcrumbs=array(
     <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
 
     <div class="row">
+    <?php
+        foreach(Yii::app()->user->getFlashes() as $key => $message) {
+
+            $class = null;
+
+            if($key == 'error')
+                $class = "alert alert-danger";
+
+            if($key == 'sucess')
+                $class = "alert-success";
+
+        echo '<div class="col-md-12 flash-' . $key . ' alert '.$class.'">' . $message . "</div>\n";
+        }
+    ?>
+    </div>
+
+    <div class="row">
         <label for="inputEmail" class="sr-only">Email address</label>
         <?php echo $form->textField($model,'username', array('class' => 'form-control', 'type' => 'email', 'placeholder' => 'Email Address', 'autofocus' => 1)); ?>
         
@@ -47,6 +64,16 @@ $this->breadcrumbs=array(
         <?php echo CHtml::submitButton('Sign In', array('class' => 'btn btn-lg btn-primary btn-block')); ?>
     </div>
 
+    <hr />
+
+    <div class="row">
+        <?php echo CHtml::link('Create Account', array('account/signup'), array('class' => 'btn btn-lg btn-primary  btn-block')); ?>    
+    </div>
+    
+
     <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
 
 <?php $this->endWidget(); ?>
+
+
+

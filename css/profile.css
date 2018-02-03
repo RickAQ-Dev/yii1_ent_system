@@ -1,0 +1,16 @@
+.profile {
+	border-bottom:1px solid #ddd;
+	padding: 10px 0;
+}
+
+.profile a {
+	text-decoration: none;
+	color:#000;
+}
+.profile .profile-img svg {
+	margin: auto;
+	height: 50px;
+	width: 50px;
+	border: 2px solid #ddd;
+	border-radius: 50px;
+}

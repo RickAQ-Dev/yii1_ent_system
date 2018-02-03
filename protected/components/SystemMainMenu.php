@@ -1,5 +1,5 @@
 <?php
-class SystemMainMenu extends CWidget {
+class SystemMainMenu extends CCNavigationWidget {
 
 	public $items = array();
 	public $options = array();

@@ -17,4 +17,5 @@ return array(
 	'username' => 'yii_ent_user',
 	'password' => '8uQ6tpR6',
 	'charset' => 'utf8',
+	'tablePrefix' => 'yii_'
 );

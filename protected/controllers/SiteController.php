@@ -85,6 +85,10 @@ class SiteController extends Controller
 	public function actionLogin()
 	{
 
+		if(!Yii::app()->user->isGuest){
+			$this->redirect(Yii::app()->user->returnUrl);
+		}
+
 		$this->layout = '//layouts/login';
 
 		$model=new LoginForm;
@@ -107,6 +111,10 @@ class SiteController extends Controller
 			// validate user input and redirect to the previous page if valid
 			if($model->validate() && $model->login())
 				$this->redirect(Yii::app()->user->returnUrl);
+			else
+				Yii::app()->user->setFlash('error', "Invalid Email Address or Password.");
+
+			$model->password = null;
 		}
 		// display the login form
 		$this->render('login',array('model'=>$model));

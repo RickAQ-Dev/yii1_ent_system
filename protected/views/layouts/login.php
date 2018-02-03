@@ -13,7 +13,7 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/signin.css">
 
-    <title>Signin Template for Bootstrap</title>
+    <title><?php echo $this->pageTitle; ?></title>
 
   </head>
 
