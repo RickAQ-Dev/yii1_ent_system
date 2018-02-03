@@ -17,7 +17,7 @@ class CoverMainMenu extends CWidget {
 		if($user->isGuest)
 			$this->items[] = array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest,'linkOptions' => array('class' => 'nav-link','target' => 'login'));
 		else
-			$this->items[] = array('label'=>'Logout ('.$user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest,'linkOptions' => array('class' => 'nav-link'));
+			$this->items[] = array('label'=>'Dashboard ('.$user->account->user->first_name.')', 'url'=>array('/dashboard/index'), 'visible'=>!Yii::app()->user->isGuest,'linkOptions' => array('class' => 'nav-link'));
 
 	}
 

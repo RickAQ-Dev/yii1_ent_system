@@ -38,6 +38,7 @@ return array(
 
 		'user'=>array(
 			// enable cookie-based authentication
+			'class' => 'AppWebUser',
 			'allowAutoLogin'=>true,
 			'loginUrl' => array('site/login')
 		),
