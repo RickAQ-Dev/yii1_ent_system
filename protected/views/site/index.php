@@ -13,16 +13,17 @@ $this->pageTitle=Yii::app()->name;
 </header>
 
 <main role="main" class="inner cover">
-	<h1 class="cover-heading">Cover your page.</h1>
-	<p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+	<h1 class="cover-heading">WORKINGSPACE you will like</h1>
+	<p class="lead">Full featured workingspace that makes you work productive.</p>
 	<p class="lead">
-  		<a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+  		<?php echo CHtml::link('Learn more', array('site/page','view' => 'about'), array('class' => 'btn btn-lg btn-secondary')); ?>
 	</p>
 </main>
 
 <footer class="mastfoot mt-auto">
 	<div class="inner">
-  		<p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+  		<p>&copy; 2018 RAQ</p>
+  		<p><small>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</small></p>
 	</div>
 </footer>
 </div>
