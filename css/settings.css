@@ -1,0 +1,11 @@
+.setting-wrapper h1,h2 {
+
+	padding: 5px 15px;
+	background-color: #5a5353;
+	color: #efefef;
+	margin: 0;
+}
+
+.setting-wrapper .setting-content {
+	margin-top: 25px;
+}

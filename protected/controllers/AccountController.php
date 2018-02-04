@@ -18,6 +18,30 @@ class AccountController extends AccAccountController
 
 	}
 
+	public function actionSecurity() {
+
+		$this->layout = '//layouts/settings';
+
+		parent::actionSecurity();
+
+	}
+
+	public function actionUpdateEmailAddress() {
+
+		Yii::app()->user->returnUrl = array('account/security');
+
+		parent::actionUpdateEmailAddress();
+
+	}
+
+	public function actionChangePassword() {
+
+		Yii::app()->user->returnUrl = array('account/security');		
+
+		parent::actionChangePassword();
+
+	}
+
 	// Uncomment the following methods and override them if needed
 	/*
 	public function filters()

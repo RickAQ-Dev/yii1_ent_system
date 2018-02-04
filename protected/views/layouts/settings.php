@@ -1,6 +1,7 @@
 <?php /* @var $this Controller */ ?>
 <?php $this->beginContent('//layouts/dashboard'); ?>
-<div class="container-fluid">
+<?php Yii::app()->clientScript->registerCssFile(Yii::app()->request->baseUrl.'/css/settings.css'); ?>
+<div class="container-fluid setting-wrapper">
 	<div class="row">
 		<div class="col-md-12">
 			<h2>Settings</h2>
@@ -8,7 +9,7 @@
 		<div class="col-md-2">
 			<?php $this->widget('SettingNavigation'); ?>
 		</div>
-		<div class="col-md-10">
+		<div class="col-md-10 setting-content">
 			<?php echo $content; ?>
 		</div>
 	</div>

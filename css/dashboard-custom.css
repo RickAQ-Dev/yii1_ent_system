@@ -8,6 +8,10 @@
 	border-top: 2px solid #ddd;
 }
 
+.section {
+	margin-top:30px;
+}
+
 .light-color {
 	color: #ccc;
 }
