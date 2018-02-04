@@ -17,8 +17,12 @@ return array(
 		'application.models.*',
 		'application.components.*',
 		'application.components.commonClass.*',
+
 		'application.yii1-module-acc-mngr.models.*',
 		'application.yii1-module-acc-mngr.controllers.*',
+
+		'application.yii1-module-todo-mngr.models.*',
+		'application.yii1-module-todo-mngr.controllers.*',
 	),
 
 	'modules'=>array(
