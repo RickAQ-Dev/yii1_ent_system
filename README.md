@@ -40,6 +40,7 @@ Run ***composer*** to download the required packages/lib of the project. If you 
 The project also requires the following module. ( it's not yet available in composer )
 
 #### yii1-module-acc-mngr [GitHub](https://github.com/RickAQ-Dev/yii1-module-acc-mngr)
+#### yii1-module-todo-mngr [GitHub](https://github.com/RickAQ-Dev/yii1-module-todo-mngr)
 
 NOTE : *Follow the instruction carefully to setup the modules into your project.*
 
