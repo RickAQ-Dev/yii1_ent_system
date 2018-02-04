@@ -26,7 +26,7 @@ Download the project from github [download](https://github.com/RickAQ-Dev/yii1_e
 ## Step 3 : Extraction
 Extract the downloaded project files into the ***httpdocs*** directory of your chosen apache simulor application.
 
-## Step 4 : Run Composer
+## Step 4 : Prerequisites | Run Composer
 Run ***composer*** to download the required packages/lib of the project. If you don't have an idea regarding ***composer*** I suggest you visit the page [about composer](https://getcomposer.org/doc/00-intro.md).
 
 * Goto directory /httpdocs/[project folder].
@@ -34,6 +34,13 @@ Run ***composer*** to download the required packages/lib of the project. If you 
 `<addr>` composer update `<addr>`
 
 wait until all the packages/lib are downloaded.
+
+### Prerequisites
+The project also requires the following module. ( it's not yet available in composer )
+
+#### yii1-module-acc-mngr [GitHub](https://github.com/RickAQ-Dev/yii1-module-acc-mngr)
+
+NOTE : *Follow the instruction carefully to setup the modules into your project.*
 
 ## Step 5 : Import Database
 If you have a running apache server ( xampp | mamp ) it automatically comes with a MySQL server.
