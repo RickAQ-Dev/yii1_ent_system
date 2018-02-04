@@ -11,7 +11,7 @@
 	<div class="profile row">
 		<div class="col-md-4">
 			<div class="profile-img">
-				<?php echo CHtml::link('<img data-feather="user">', array('user/profile')); ?>
+				<?php echo CHtml::link('<img data-feather="user">', array('profile/index')); ?>
 			</div>
 		</div>	
 		<div class="col-md-8">

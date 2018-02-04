@@ -2,3 +2,12 @@
 	position: fixed;
 	bottom: 0;
 }
+
+.separator {
+	margin:20px 0;
+	border-top: 2px solid #ddd;
+}
+
+.light-color {
+	color: #ccc;
+}

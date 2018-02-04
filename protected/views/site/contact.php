@@ -3,14 +3,17 @@
 /* @var $model ContactForm */
 /* @var $form CActiveForm */
 
+Yii::app()->clientScript->registerCssFile(Yii::app()->request->baseUrl.'/css/form-custom.css');
+
 $this->pageTitle=Yii::app()->name . ' - Contact Us';
 $this->breadcrumbs=array(
 	'Contact',
 );
 ?>
 
-<h1>Contact Us</h1>
-
+<h1 class="text-center">Contact Us</h1>
+<br />
+<br />
 <?php if(Yii::app()->user->hasFlash('contact')): ?>
 
 <div class="flash-success">
@@ -19,12 +22,13 @@ $this->breadcrumbs=array(
 
 <?php else: ?>
 
-<p>
-If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
-</p>
-
 <div class="row">
+	<div class="col-md-3"></div>
 	<div class="col-md-6">
+
+		<p>
+		If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
+		</p>
 		
 		<div class="form">
 
@@ -84,13 +88,18 @@ If you have business inquiries or other questions, please fill out the following
 			<div class="row">
 				<div class="col-md-12">
 					<?php if(CCaptcha::checkRequirements()): ?>
-						<?php echo $form->labelEx($model,'verifyCode'); ?>
-						<div>
-						<?php $this->widget('CCaptcha'); ?>
-						<?php echo $form->textField($model,'verifyCode'); ?>
+						
+						<div class="row">
+							<div class="col-md-6"><?php echo $form->labelEx($model,'verifyCode'); ?></div>
+							<div class="col-md-6"><?php $this->widget('CCaptcha'); ?></div>
+							<div class="col-md-6">
+								<div class="hint">Please enter the letters as they are shown in the image above.
+									<br/>Letters are not case-sensitive.
+								</div>
+							</div>
+							<div class="col-md-6"><?php echo $form->textField($model,'verifyCode', array('class' => 'form-control')); ?></div>
 						</div>
-						<div class="hint">Please enter the letters as they are shown in the image above.
-						<br/>Letters are not case-sensitive.</div>
+						
 						<?php echo $form->error($model,'verifyCode'); ?>
 					<?php endif; ?>
 				</div>
@@ -105,12 +114,15 @@ If you have business inquiries or other questions, please fill out the following
 				</div>
 			</div>
 
+			<br />
+			<br />
+
 		<?php $this->endWidget(); ?>
 
 		</div><!-- form -->
 
 	</div>
-	<div class="col-md-6"></div>
+	<div class="col-md-3"></div>
 </div>
 
 <?php endif; ?>

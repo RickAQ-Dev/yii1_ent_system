@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color"
+			],
+			[
+				"email",
+				"emailAddress"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
 				"link",
 				"linkOptions"
 			],
@@ -39,6 +55,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/views/site/contact.php",
+			"settings":
+			{
+				"buffer_size": 2976,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/yii1-module-acc-mngr/views/account/signUp.php",
+			"settings":
+			{
+				"buffer_size": 2748,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/controllers/SiteController.php",
+			"settings":
+			{
+				"buffer_size": 3150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/yii1-module-acc-mngr/controllers/AccAccountController.php",
+			"settings":
+			{
+				"buffer_size": 2521,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -88,22 +139,52 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system"
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/views",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/views",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/yii1-module-acc-mngr",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/yii1-module-acc-mngr/controllers",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/yii1-module-acc-mngr/models",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/yii1-module-acc-mngr/views",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/yii1-module-acc-mngr/views/account"
 	],
 	"file_history":
 	[
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/views/layouts/page.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/css/about.css",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/views/site/index.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/views/site/pages/about.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/SystemMainMenu.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/config/main.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/models/LoginForm.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/CoverMainMenu.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/AppWebUser.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/yii1-module-acc-mngr/models/Account.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/views/layouts/dashboard.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/controllers/AccountController.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/yii1-module-acc-mngr/controllers/AccAccountController.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/yii1-module-acc-mngr/models/AccountUser.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/css/form-custom.css",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/views/site/login.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/yii1-module-acc-mngr/views/account/signUp.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/yii1-module-acc-mngr/controllers/AccAccountController.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/UserIdentity.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/controllers/SiteController.php",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/views/DashboardHeader/dashboardHeader.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/commonClass/CCProvider.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/views/DashboardMainNavigation/dashboardMainNavigation.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/config/database.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/css/dashboard-custom.css",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/css/dashboard-extra.css",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/views/Profile/profile.php",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/css/dashboard.css",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/css/profile.css",
+		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/Profile.php",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/CommonClass/CCNavigationWidget.php",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/DashboardHeader.php",
-		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/config/main.php",
-		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/css/dashboard.css",
-		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/views/DashboardMainNavigation/dashboardMainNavigation.php",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/DashboardMainNavigation.php",
-		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/views/layouts/page.php",
-		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/views/layouts/dashboard.php",
-		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/SystemMainMenu.php",
-		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/CoverMainMenu.php",
-		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/controllers/SiteController.php",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/views/layouts/login.php",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/css/signin.css",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/views/PageMainMenu/pageMainMenu.php",
@@ -112,13 +193,11 @@
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/PageHeader.php",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/views/CoverMainMenu/coverMainMenu.php",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/views/layouts/cover.php",
-		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/views/site/index.php",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/views/layouts/main.php",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/css/starter-template.css",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/views/SystemMainMenu/systemMainMenu.php",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/css/cover.css",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/components/views/CoverMainMenu.php",
-		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/config/database.php",
 		"/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/composer.json",
 		"/Users/rickaquiatan/Dev/htdocs/svnx/sigmabird-vanilla/protected/modules/admin/components/views/appointmentEmailer/index.php",
 		"/Users/rickaquiatan/Dev/htdocs/svnx/sigmabird-vanilla/protected/models/CrmAppointment.php",
@@ -200,30 +279,11 @@
 		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/components/views/vodafoneV7MA133336/_p5.php",
 		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/components/views/vodafoneV7MA133336/_p6.php",
 		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/components/views/vodafoneV7MA133336/_p7.php",
-		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/views/layouts/vodafone/v7/vodafoneV7VVL_layout.php",
-		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/views/layouts/vodafone/v7/vodafoneV7NeuMnp_layout.php",
-		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/components/views/vodafoneV7NeuMnpContract/_p1.php",
-		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/components/views/vodafoneV7NeuMnpContract/_p11.php",
-		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/components/views/vodafoneV7NeuMnpContract/_p13.php",
-		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/components/views/vodafoneV7NeuMnpContract/_p14.php",
-		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/components/views/vodafoneV7NeuMnpContract/_p2.php",
-		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/components/views/vodafoneV7NeuMnpContract/_p3.php",
-		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/components/views/vodafoneV7NeuMnpContract/_p4.php",
-		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/components/views/vodafoneV7NeuMnpContract/_p5.php",
-		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/components/views/vodafoneV7NeuMnpContract/vodafoneV7NeuMnpContract.php",
-		"/Users/rickaquiatan/Dev/symfonyProjects/myFirstProject/src/AppBundle/Entity/SymUser.php",
-		"/Users/rickaquiatan/Dev/symfonyProjects/myFirstProject/app/Resources/views/lucky/number.html.twig",
-		"/Users/rickaquiatan/Dev/symfonyProjects/myFirstProject/app/config/routing.yml",
-		"/Users/rickaquiatan/Dev/symfonyProjects/myFirstProject/src/AppBundle/Controller/LuckyController.php",
-		"/Users/rickaquiatan/Dev/symfonyProjects/myFirstProject/app/config/parameters.yml",
-		"/Users/rickaquiatan/Dev/symfonyProjects/myFirstProject/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Authentication/AuthenticationUtils.php",
-		"/Users/rickaquiatan/Dev/symfonyProjects/myFirstProject/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Encoder/BCryptPasswordEncoder.php",
-		"/Users/rickaquiatan/Dev/symfonyProjects/myFirstProject/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User/UserInterface.php",
-		"/Users/rickaquiatan/Dev/symfonyProjects/myFirstProject/app/Resources/config/doctrine/User.orm.yml"
+		"/Users/rickaquiatan/Dev/htdocs/svnx/simcom/protected/modules/admin/views/layouts/vodafone/v7/vodafoneV7VVL_layout.php"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -237,6 +297,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"></",
+			"agreeonterms",
+			"form.error",
+			"password",
+			"email_address",
+			"password",
+			"first_name",
+			"user",
+			"model"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -260,8 +329,126 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/views/site/contact.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2976,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2546,
+								2546
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 811.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/yii1-module-acc-mngr/views/account/signUp.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								526,
+								526
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 44.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/controllers/SiteController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								530,
+								530
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 6.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/rickaquiatan/Dev/htdocs/git/yii_ent_system/protected/yii1-module-acc-mngr/controllers/AccAccountController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1165,
+								1165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 224.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -317,6 +504,30 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"pro/contro/site",
+				"protected/controllers/SiteController.php"
+			],
+			[
+				"proc/views/lay/page",
+				"protected/views/layouts/page.php"
+			],
+			[
+				"proc/views/layouts/das",
+				"protected/views/layouts/dashboard.php"
+			],
+			[
+				"pro/views/site/log",
+				"protected/views/site/login.php"
+			],
+			[
+				"p/contr/site",
+				"protected/controllers/SiteController.php"
+			],
+			[
+				"p/v/lay",
+				"protected/views/layouts/dashboard.php"
+			],
 			[
 				"p/views/layo",
 				"protected/views/layouts/dashboard.php"
